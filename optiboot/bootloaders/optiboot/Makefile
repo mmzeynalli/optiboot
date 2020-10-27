@@ -50,10 +50,10 @@ PROGRAM    = optiboot
 # Arduino user IDE setup, or the Arduino source tree.
 # Uncomment this next lines to build within the arduino environment,
 # using the arduino-included avrgcc toolset (mac and pc)
-# ENV ?= arduino
+ENV ?= arduino
 # ENV ?= arduinodev
 # OS ?= macosx
-# OS ?= windows
+OS ?= windows
 
 # export symbols to recursive makes (for ISP)
 export
